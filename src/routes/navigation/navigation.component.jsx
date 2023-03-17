@@ -15,6 +15,9 @@ const Navigation = () => {
           <Link className="nav-link" to="/shop">
             SHOP
           </Link>
+          <Link className="nav-link" to="/sign-in">
+            SIGN IN
+          </Link>
         </div>
       </div>
       {/* under navigation bar this outlet(it renderds child component) rendered it is home and shop component */}
